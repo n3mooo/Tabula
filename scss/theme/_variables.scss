@@ -1,0 +1,55 @@
+//Themes colors
+$color-primary: #b61984;
+$color-second: #dcd1f3;
+$color-text: #191919;
+$color-other: #f2edeb;
+
+// Notify Colors 
+$color-success: #3EB75E;
+$color-danger: #FF0003;
+$color-warning: #FF8F3C;
+$color-info: #1BA2DB;
+
+//Font weight
+//primary font
+$p-light: 300;
+$p-regular: 400;
+$p-medium: 500;
+$p-semi-bold: 600;
+$p-bold: 700;
+$p-extra-bold: 800;
+$p-black: 900;
+
+//Fonts Size
+$font-size-b1: 18px;
+$font-size-b2: 16px;
+$font-size-b3: 14px;
+$font-size-b3-2: 13px;
+$font-size-b4: 12px;
+
+//Line Height
+$line-height-b1: 1.67; //28px
+$line-height-b2: 1.5; //24px
+$line-height-b3: 1.6; //22px
+$line-height-b4: 1.3; //16px
+
+
+// Heading Font 
+$h1: 44px; //52px 1.29
+$h2: 36px; //44px 1.23
+$h3: 30px; // 34px 1.14
+$h4: 24px; //30px  1.25
+$h5: 18px; //22px 1.24
+$h6: 16px; //20px 1.25
+
+
+
+//===== Colors =====//
+$black: #000;
+$white:#fff;
+
+// Layouts
+$lg-layout: 'only screen and (max-width: 1199px)';
+$md-layout:'only screen and (max-width: 991px)';
+$sm-layout:'only screen and (max-width: 767px)';
+$mb-layout: 'only screen and (max-width: 575px)';

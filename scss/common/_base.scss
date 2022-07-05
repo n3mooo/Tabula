@@ -1,0 +1,133 @@
+@font-face {
+    font-family: "Tabula";
+    src: url(../../font/Tabula.woff) format("woff");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    // font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+}
+
+body {
+    font-weight: $p-regular;
+    line-height: 1.8em;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+a {
+    text-decoration: none;
+    transition: all 200ms ease;
+}
+
+ul {
+    margin: 0;
+}
+
+li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+input[type="text"]:focus,
+button[type="button"]:focus {
+    box-shadow: 0 0 4px 0 rgba(0, 0, 0, .1) !important;
+    border: 1px solid rgba(0, 0, 0, .3) !important;
+}
+
+.bg {
+    position: absolute;
+    left: 0;
+    right: 0;
+    pointer-events: none;
+
+    img {
+        width: 100%;
+        display: block;
+        user-select: none;
+    }
+}
+
+a.btn-default,
+button.btn-default {
+    color: $white;
+    font-weight: $p-medium;
+    font-size: $font-size-b3;
+    padding: 1.05em 1.42em;
+    margin: 6px;
+    line-height: 1;
+    border-radius: 50px;
+    overflow: hidden;
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0 0 3em $color-primary inset;
+    background: transparent;
+    transition: 0.3s all ease;
+
+    &:hover {
+        color: $color-primary;
+        box-shadow: 0 0 0 1px $color-primary inset;
+    }
+}
+
+.wrapper {
+    max-width: 1260px;
+    width: 100%;
+    margin: auto;
+    padding: 0 30px;
+    position: relative;
+
+}
+
+.title {
+    span {
+        display: inline-block;
+        color: $color-primary;
+        font-size: 1rem;
+        font-weight: $p-semi-bold;
+        padding-bottom: .6em;
+        line-height: 1.2;
+    }
+
+    h2 {
+        color: inherit;
+        font-size: 3.6rem;
+        font-weight: $p-bold;
+        line-height: 1.2;
+        margin: 0;
+        padding: 0;
+    }
+
+    p {
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        padding: 0;
+        font-size: 15px;
+    }
+}
+
+.social {
+    a {
+        margin-left: 0.7em;
+        transition: all 100ms linear;
+
+        i {
+            font-size: 0.85em;
+            color: $color-text;
+
+            &:hover {
+                color: $color-primary;
+            }
+        }
+    }
+}
